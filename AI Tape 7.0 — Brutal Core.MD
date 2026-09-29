@@ -333,9 +333,7 @@ redundancy
 inactive material
 absorbed content
 
-Meaning survives.
 
-Weight does not.
 
 99\_MOTTO
 
