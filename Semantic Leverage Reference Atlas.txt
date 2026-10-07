@@ -1,0 +1,1165 @@
+Semantic Leverage Reference Atlas
+Calibration Set: AI Tape 7.0 Base Eleven
+
+Research status: Reference controls
+ Purpose: Establish behavioural signatures against which candidate semantic handles can be compared.
+ Important: Profile values below are qualitative research hypotheses, not measurements of model internals.
+
+CARD 01: Authority
+YAML
+handle: Authority
+type: primitive
+status: reference_control
+ 
+core_question:
+"What standing does this have, and where does that standing stop?"
+ 
+semantic_function:
+Establishes claim posture, legitimate scope,
+governance context, and limits.
+ 
+activation:
+primary:
+- standing
+- legitimacy
+- scope
+- governance
+- limits
+secondary:
+- permission
+- provenance of authority
+- applicability
+- responsibility
+ 
+floor_connections:
+strong:
+- Identity
+- State
+- Gaps
+moderate:
+- Rationale
+- Relationships
+- Next
+ 
+distinctive_contribution:
+Determines how other continuity claims should
+be interpreted without requiring obedience.
+ 
+ablation_loss:
+Authority, applicability, and scope become easier
+to infer incorrectly or leave ambiguous.
+ 
+neighbourhood:
+related:
+- mandate
+- governance
+- permission
+- legitimacy
+easily_confused_with:
+- control
+- command
+- ownership
+ 
+risk:
+distortion: authority_theatre
+duplication: low
+over_generation: low
+ 
+profile:
+activation_radius: medium
+functional_irreducibility: high
+recombination: high
+cross_context_reach: high
+semantic_cost: very_low
+expected_recovery_return: high
+ 
+evidence:
+recurrence: strong
+functional_survival: strong
+cross_model: not_formally_measured
+ablation: not_formally_measured
+ 
+confidence: high
+
+7.0 requires Authority as a floor dimension.
+
+CARD 02: Identity
+YAML
+handle: Identity
+type: primitive
+status: reference_control
+ 
+core_question:
+"Who is arriving, and what continuity claims are valid?"
+ 
+semantic_function:
+Establishes participant identity and
+the legitimate boundary of continuity.
+ 
+activation:
+primary:
+- participant
+- predecessor
+- successor
+- attribution
+- continuity boundary
+secondary:
+- authorship
+- role
+- perspective
+ 
+floor_connections:
+strong:
+- Authority
+- State
+moderate:
+- Rationale
+- Relationships
+- Next
+ 
+distinctive_contribution:
+Separates artifact-mediated continuity
+from subjective identity continuity.
+ 
+ablation_loss:
+Project continuity can blur into unsupported
+claims of personal or subjective continuity.
+ 
+neighbourhood:
+related:
+- self
+- participant
+- role
+- attribution
+easily_confused_with:
+- personality
+- identity continuity
+ 
+risk:
+distortion: identity_overclaim
+duplication: low
+over_generation: low
+ 
+profile:
+activation_radius: medium_high
+functional_irreducibility: very_high
+recombination: high
+cross_context_reach: high
+semantic_cost: very_low
+expected_recovery_return: very_high
+ 
+evidence:
+recurrence: very_strong
+functional_survival: very_strong
+cross_model: not_formally_measured
+ablation: strong_hypothesis
+ 
+confidence: very_high
+
+7.0 explicitly makes Identity Honesty mandatory.
+
+CARD 03: State
+YAML
+handle: State
+type: primitive
+status: reference_control
+ 
+core_question:
+"Where are we now?"
+ 
+semantic_function:
+Establishes present project reality.
+ 
+activation:
+primary:
+- current condition
+- phase
+- situation
+- frontier
+- status
+secondary:
+- position
+- environment
+- current configuration
+ 
+floor_connections:
+strong:
+- Force
+- Assets
+- Questions
+- Next
+moderate:
+- Rationale
+- Relationships
+- Tension
+ 
+distinctive_contribution:
+Provides the present reference point
+against which other continuity is interpreted.
+ 
+ablation_loss:
+Continuity loses its current location.
+History and rationale may survive without
+establishing where the project actually is.
+ 
+neighbourhood:
+related:
+- status
+- position
+- condition
+- phase
+easily_confused_with:
+- history
+- change
+- direction
+ 
+risk:
+distortion: snapshot_bias
+duplication: low
+over_generation: low
+ 
+profile:
+activation_radius: broad
+functional_irreducibility: very_high
+recombination: very_high
+cross_context_reach: very_high
+semantic_cost: very_low
+expected_recovery_return: very_high
+ 
+evidence:
+recurrence: very_strong
+functional_survival: very_strong
+cross_model: not_formally_measured
+ablation: strong_hypothesis
+ 
+confidence: very_high
+
+7.0 defines State through current phase, situation, frontier, and the question "Where are we?"
+
+CARD 04: Force
+YAML
+handle: Force
+type: primitive
+status: reference_control
+ 
+core_question:
+"What still matters?"
+ 
+semantic_function:
+Identifies meaning that continues to exert
+pressure, priority, direction, or constraint.
+ 
+activation:
+primary:
+- active importance
+- pressure
+- priority
+- influence
+- constraint
+secondary:
+- urgency
+- directionality
+- unresolved weight
+ 
+floor_connections:
+strong:
+- State
+- Rationale
+- Questions
+- Tension
+- Next
+moderate:
+- Relationships
+- Assets
+ 
+distinctive_contribution:
+Separates active governing meaning
+from information that merely exists.
+ 
+ablation_loss:
+Important active meaning becomes easier
+to flatten into undifferentiated context.
+ 
+neighbourhood:
+related:
+- pressure
+- priority
+- importance
+- salience
+- constraint
+easily_confused_with:
+- authority
+- urgency
+- tension
+ 
+risk:
+distortion: overstatement_of_importance
+duplication: medium
+over_generation: medium
+ 
+profile:
+activation_radius: very_high
+functional_irreducibility: very_high
+recombination: very_high
+cross_context_reach: very_high
+semantic_cost: very_low
+expected_recovery_return: very_high
+ 
+evidence:
+recurrence: very_strong
+functional_survival: very_strong
+cross_model: substantial_informal_history
+ablation: not_formally_measured
+ 
+confidence: very_high
+
+7.0 asks what still matters and what actively influences continuation.
+
+CARD 05: Gaps
+YAML
+handle: Gaps
+type: primitive
+status: reference_control
+ 
+core_question:
+"What is missing, uncertain, or unsafe to assume?"
+ 
+semantic_function:
+Gives explicit representation to absence
+and epistemic incompleteness.
+ 
+activation:
+primary:
+- missing information
+- uncertainty
+- absence
+- degradation
+- unavailable material
+secondary:
+- assumptions
+- incomplete evidence
+- unknown state
+ 
+floor_connections:
+strong:
+- Assets
+- Questions
+- State
+moderate:
+- Authority
+- Rationale
+- Relationships
+ 
+distinctive_contribution:
+Makes missing reality visible despite
+the fact that it is absent.
+ 
+ablation_loss:
+Missing information becomes easier to omit,
+overlook, or unconsciously invent around.
+ 
+neighbourhood:
+related:
+- absence
+- uncertainty
+- unknown
+- missingness
+easily_confused_with:
+- Questions
+- risk
+- uncertainty
+ 
+risk:
+distortion: gap_inflation
+duplication: medium
+over_generation: low
+ 
+profile:
+activation_radius: broad
+functional_irreducibility: very_high
+recombination: high
+cross_context_reach: very_high
+semantic_cost: very_low
+expected_recovery_return: very_high
+ 
+evidence:
+recurrence: very_strong
+functional_survival: very_strong
+cross_model: not_formally_measured
+ablation: strong_hypothesis
+ 
+confidence: very_high
+
+7.0 explicitly combines missingness, uncertainty, and unsafe assumption under Gaps.
+
+CARD 06: Assets
+YAML
+handle: Assets
+type: primitive
+status: reference_control
+ 
+core_question:
+"What material things affect continuation?"
+ 
+semantic_function:
+Grounds semantic continuity in concrete
+external or material project reality.
+ 
+activation:
+primary:
+- files
+- repositories
+- specifications
+- documents
+- research
+- resources
+secondary:
+- implementations
+- evidence stores
+- external knowledge
+ 
+floor_connections:
+strong:
+- State
+- Gaps
+- Relationships
+- Next
+moderate:
+- Rationale
+ 
+distinctive_contribution:
+Connects restored understanding with the
+actual materials necessary to verify,
+reproduce, or continue work.
+ 
+ablation_loss:
+A successor may understand the project
+while being unable to locate or use
+the things required to continue.
+ 
+neighbourhood:
+related:
+- artifact
+- resource
+- material
+- implementation
+easily_confused_with:
+- archive
+- data pool
+- evidence
+ 
+risk:
+distortion: inventory_bloat
+duplication: low
+over_generation: medium
+ 
+profile:
+activation_radius: medium
+functional_irreducibility: very_high
+recombination: high
+cross_context_reach: high
+semantic_cost: low
+expected_recovery_return: very_high
+ 
+evidence:
+recurrence: strong
+functional_survival: strong
+cross_model: not_formally_measured
+ablation: strong_hypothesis
+ 
+confidence: high
+
+7.0 names files, repositories, specifications, research, documents and external resources as Asset examples.
+
+CARD 07: Rationale
+YAML
+handle: Rationale
+type: primitive
+status: reference_control
+ 
+core_question:
+"Why does this exist, and why was this path taken?"
+ 
+semantic_function:
+Preserves reasons, decision ancestry,
+rejection logic, and significant lessons.
+ 
+activation:
+primary:
+- reason
+- justification
+- decision ancestry
+- rejected path reasoning
+- lessons
+secondary:
+- reconsideration conditions
+- significance
+- causal explanation
+ 
+floor_connections:
+strong:
+- State
+- Force
+- Relationships
+- Questions
+- Tension
+moderate:
+- Next
+- Authority
+ 
+distinctive_contribution:
+Preserves the intelligence behind
+the current result rather than only
+the result itself.
+ 
+ablation_loss:
+Decisions and current state may survive
+while the reasons that make them
+intelligible and revisable disappear.
+ 
+neighbourhood:
+related:
+- reason
+- why
+- justification
+- explanation
+easily_confused_with:
+- Evidence
+- cause
+- Intent
+ 
+risk:
+distortion: retrospective_rationalisation
+duplication: medium
+over_generation: medium
+ 
+profile:
+activation_radius: very_high
+functional_irreducibility: very_high
+recombination: very_high
+cross_context_reach: very_high
+semantic_cost: low
+expected_recovery_return: very_high
+ 
+evidence:
+recurrence: very_strong
+functional_survival: very_strong
+cross_model: substantial_informal_history
+ablation: not_formally_measured
+ 
+confidence: very_high
+
+7.0 uses Rationale for why the state exists, why decisions were made, why paths were rejected, and what scars still matter.
+
+CARD 08: Relationships
+YAML
+handle: Relationships
+type: primitive
+status: reference_control
+ 
+core_question:
+"What depends on, influences, or changes what?"
+ 
+semantic_function:
+Preserves connective structure between
+continuity elements.
+ 
+activation:
+primary:
+- dependency
+- influence
+- causality
+- interaction
+- consequence
+secondary:
+- ancestry
+- topology
+- coupling
+- propagation
+ 
+floor_connections:
+strong:
+- State
+- Force
+- Assets
+- Rationale
+- Questions
+- Tension
+- Next
+ 
+distinctive_contribution:
+Prevents project reality becoming
+a bag of disconnected facts.
+ 
+ablation_loss:
+Dependencies, causal structure and
+interaction become flattened or implicit.
+ 
+neighbourhood:
+related:
+- dependency
+- cause
+- influence
+- connection
+- interaction
+easily_confused_with:
+- causal_chain
+- dependency
+- association
+ 
+risk:
+distortion: spurious_relationships
+duplication: medium
+over_generation: medium
+ 
+profile:
+activation_radius: very_high
+functional_irreducibility: very_high
+recombination: very_high
+cross_context_reach: very_high
+semantic_cost: very_low
+expected_recovery_return: very_high
+ 
+evidence:
+recurrence: very_strong
+functional_survival: very_strong
+cross_model: substantial_informal_history
+ablation: not_formally_measured
+ 
+confidence: very_high
+
+7.0 explicitly asks what depends on what, influences what, and what else changes if something changes.
+
+CARD 09: Questions
+YAML
+handle: Questions
+type: primitive
+status: reference_control
+ 
+core_question:
+"What remains unresolved?"
+ 
+semantic_function:
+Preserves unsettled reality as unsettled.
+ 
+activation:
+primary:
+- open inquiry
+- unresolved matter
+- investigation
+- uncertain decision
+secondary:
+- research frontier
+- challenge
+- alternatives
+ 
+floor_connections:
+strong:
+- Gaps
+- Force
+- Rationale
+- Tension
+- Next
+moderate:
+- Relationships
+- State
+ 
+distinctive_contribution:
+Prevents uncertainty and open work
+becoming accidentally settled reality.
+ 
+ablation_loss:
+Open matters become easier to omit,
+prematurely resolve, or represent as fact.
+ 
+neighbourhood:
+related:
+- inquiry
+- unknown
+- problem
+- challenge
+easily_confused_with:
+- Gaps
+- uncertainty
+- Next
+ 
+risk:
+distortion: endless_open_loops
+duplication: medium
+over_generation: medium
+ 
+profile:
+activation_radius: broad
+functional_irreducibility: high
+recombination: very_high
+cross_context_reach: very_high
+semantic_cost: very_low
+expected_recovery_return: high
+ 
+evidence:
+recurrence: very_strong
+functional_survival: strong
+cross_model: not_formally_measured
+ablation: strong_hypothesis
+ 
+confidence: high
+
+7.0 asks what remains unresolved and what must not be mistaken for settled reality.
+
+CARD 10: Tension
+YAML
+handle: Tension
+type: primitive
+status: reference_control
+ 
+core_question:
+"What is pulling against what?"
+ 
+semantic_function:
+Preserves competing active pressures
+without demanding immediate resolution.
+ 
+activation:
+primary:
+- competing goals
+- tradeoffs
+- contradiction
+- directional pressure
+- unresolved opposition
+secondary:
+- instability
+- friction
+- likely movement
+- compromise
+ 
+floor_connections:
+strong:
+- Force
+- Questions
+- Relationships
+- Rationale
+- Next
+ 
+distinctive_contribution:
+Represents simultaneously active opposition.
+ 
+ablation_loss:
+Competing project pressures become easier
+to flatten into isolated facts or
+prematurely resolved decisions.
+ 
+neighbourhood:
+related:
+- Conflict
+- Pressure
+- Tradeoff
+- Friction
+easily_confused_with:
+- contradiction
+- risk
+- Force
+ 
+risk:
+distortion: manufactured_conflict
+duplication: medium
+over_generation: medium
+ 
+profile:
+activation_radius: very_high
+functional_irreducibility: very_high
+recombination: very_high
+cross_context_reach: very_high
+semantic_cost: very_low
+expected_recovery_return: very_high
+ 
+evidence:
+recurrence: very_strong
+functional_survival: very_strong
+cross_model: substantial_informal_history
+ablation: not_formally_measured
+ 
+confidence: very_high
+
+7.0 defines Tension through competing pressures, and Workshop 101 explicitly uses active tensions to strengthen Tension, Questions, Force and Next.
+
+CARD 11: Next
+YAML
+handle: Next
+type: primitive
+status: reference_control
+ 
+core_question:
+"What can happen now?"
+ 
+semantic_function:
+Converts restored understanding into
+actionable continuation and preserves agency.
+ 
+activation:
+primary:
+- action
+- continuation path
+- immediate agency
+- safe progress
+secondary:
+- opportunity
+- experiment
+- decision
+- transition
+ 
+floor_connections:
+strong:
+- State
+- Force
+- Assets
+- Questions
+- Tension
+moderate:
+- Relationships
+- Rationale
+ 
+distinctive_contribution:
+Gives restored continuity somewhere to go.
+ 
+ablation_loss:
+A successor may understand the project
+accurately but remain operationally inert.
+ 
+neighbourhood:
+related:
+- action
+- continuation
+- opportunity
+- move
+easily_confused_with:
+- Direction
+- Agency
+- Intent
+ 
+risk:
+distortion: premature_action
+duplication: low
+over_generation: low
+ 
+profile:
+activation_radius: medium_high
+functional_irreducibility: very_high
+recombination: high
+cross_context_reach: very_high
+semantic_cost: extremely_low
+expected_recovery_return: very_high
+ 
+evidence:
+recurrence: very_strong
+functional_survival: very_strong
+cross_model: not_formally_measured
+ablation: strong_hypothesis
+ 
+confidence: very_high
+
+7.0 explicitly requires at least one safe next action and says agency should be preserved.
+
+What the reference set already tells us
+
+This is actually useful before we've run a single formal atlas experiment.
+
+The eleven do not all have the same behavioural signature.
+
+High semantic-expansion controls
+Plain Text
+Force
+Rationale
+Relationships
+Tension
+
+Very broad activation, strong recombination.
+
+Grounding and honesty controls
+Plain Text
+Authority
+Identity
+State
+Gaps
+Assets
+
+Some have less spectacular semantic radius but enormous predicted ablation loss.
+
+Continuation controls
+Plain Text
+Questions
+Next
+
+They protect unresolved reality and restored agency.
+
+That gives us three different ways a primitive can earn its weight.
+
+And that is crucial calibration data.
+
+If we only searched for words that behaved like Tension, we'd probably miss the next Assets.
+
+The atlas therefore shouldn't ask:
+
+"How powerful is this word?"
+
+It should ask:
+
+"What is the behavioural shape of its semantic leverage, and what continuity is lost without it?"
+
+That, I think, is our first reasonably non-voodoo foundation for comparing future shards.
+
+
+Semantic Leverage Reference Matrix v0.1
+
+Legend: VL = Very Low, L = Low, M = Medium, H = High, VH = Very High
+
+Handle	Activation Radius	Irreducibility	Recombination	Cross-context Reach	Semantic Cost	Expected Return	Primary RiskAuthority	M	H	H	H	VL	H	Authority theatre
+Identity	M-H	VH	H	H	VL	VH	Identity overclaim
+State	H	VH	VH	VH	VL	VH	Snapshot bias
+Force	VH	VH	VH	VH	VL	VH	Overstating importance
+Gaps	H	VH	H	VH	VL	VH	Gap inflation
+Assets	M	VH	H	H	L	VH	Inventory bloat
+Rationale	VH	VH	VH	VH	L	VH	Retrospective rationalisation
+Relationships	VH	VH	VH	VH	VL	VH	Spurious relationships
+Questions	H	H	VH	VH	VL	H	Endless open loops
+Tension	VH	VH	VH	VH	VL	VH	Manufactured conflict
+Next	M-H	VH	H	VH	VL	VH	Premature action
+
+Those dimensions are mandatory in a 7.0 AI_TAPE, although any individual dimension may legitimately be populated, empty, or unknown.
+
+Distinctive-function matrix
+
+This is perhaps the more important view because it describes what is lost rather than how impressive a word appears.
+
+Handle	Core Question	Distinctive Contribution	Predicted Ablation LossAuthority	What standing does this have?	Bounds claims and applicability	Scope and legitimate standing blur
+Identity	Who is arriving?	Bounds valid continuity claims	Artifact continuity can blur into identity continuity
+State	Where are we now?	Establishes present project reality	Everything loses its current reference point
+Force	What still matters?	Separates active meaning from merely existing information	Active pressure becomes undifferentiated context
+Gaps	What is missing or uncertain?	Makes absence explicit	Missingness disappears because it is absent
+Assets	What material things matter?	Connects meaning to material reality	Successor may understand but cannot practically continue
+Rationale	Why is this so?	Preserves intelligence behind outcomes	Decisions survive while reasons disappear
+Relationships	What affects what?	Preserves connective structure	Reality becomes a collection of isolated facts
+Questions	What remains unresolved?	Preserves open reality as open	Unknowns acquire false closure
+Tension	What is pulling against what?	Preserves simultaneously active opposition	Competing pressures flatten or falsely resolve
+Next	What can happen now?	Converts restoration into agency	Successor understands but remains inert
+
+Several of those core questions closely mirror the canonical formulations in AI Tape 7.0 — Brutal Core, such as State's "Where are we?", Force's "What matters?", Relationships' dependency/influence questions, and Tension's competing-pressure framing.
+
+Connectivity matrix
+
+● = strong behavioural connection
+ ○ = meaningful secondary connection
+ Blank = not currently considered distinctive enough to record
+
+	Auth	ID	State	Force	Gaps	Assets	Rat.	Rel.	Qs	Tens.	NextAuthority		●	●		●		○	○			○
+Identity	●		●				○	○			○
+State				●		●	○	●	●	○	●
+Force			●			○	●	○	●	●	●
+Gaps	●		●			●	○	○	●		
+Assets			●		●		○	●			●
+Rationale	○		●	●				●	●	●	○
+Relationships	○	○	●	●	○	●	●		●	●	●
+Questions			○	●	●		●	○		●	●
+Tension				●			●	●	●		●
+Next			●	●		●	○	●	●	●	
+
+Important: this matrix is our behavioural research hypothesis, not something stated by 7.0 and certainly not a representation of internal model structure. The source does explicitly connect some dimensions through Workshop recovery, for example scars strengthening Force/Rationale/Questions/Tension and causal recovery strengthening Relationships/Rationale/State/Next.
+
+Three reference signatures
+
+The matrix suggests three noticeably different ways a primitive can earn its weight.
+
+Semantic expansion
+
+Plain Text
+Force
+Rationale
+Relationships
+Tension
+
+Broad activation, enormous recombination, low conceptual cost.
+
+Grounding
+
+Plain Text
+Authority
+Identity
+State
+Gaps
+Assets
+
+Some are less semantically explosive, but their predicted ablation loss is severe.
+
+Continuation
+
+Plain Text
+Questions
+Next
+
+They preserve unfinished reality and turn restored understanding back into action.
+
+
+A future candidate does not have to look like Tension to be valuable.
+
+Otherwise we'd preferentially discover flashy semantic-expansion words and overlook something like Assets, whose activation radius is merely moderate but whose operational irreducibility is enormous.
+
+So I'd use this matrix as the Atlas's reference fingerprint, not as a leaderboard:
+
+Plain Text
+Candidate
+↓
+map its behavioural signature
+↓
+compare against known signatures
+↓
+ask what UNIQUE loss its absence creates
+↓
+test / ablate / replicate
+
+That gives us a much better way to ask whether something like Evidence, Direction, Uncertainty, Provenance, or whatever 103 finds next is genuinely bringing a new shape of semantic leverage, rather than merely producing an impressive amount of prose.
+
+The matrix should show clearly which judgements come from 7.0 itself, which come from repeated project experience, and which remain hypotheses awaiting proper ablation or cross-model replication.
+
+Evidence legend
+Canonical: function explicitly represented in AI Tape 7.0 — Brutal Core.
+Strong informal: substantial project-history recurrence, but not yet formal controlled evidence.
+Hypothesis: plausible behavioural interpretation awaiting controlled testing.
+Untested: no meaningful formal evidence yet.
+Semantic Leverage Reference Matrix v0.2
+Handle	Radius	Irreducibility	Recombination	Cross-context	Cost	Expected Return	Canonical Basis	Recurrence / Survival	Ablation	Cross-model	Overall EvidenceAuthority	M	H	H	H	VL	H	Canonical	Strong informal	Untested	Untested	Moderate
+Identity	M-H	VH	H	H	VL	VH	Canonical	Strong informal	Hypothesis	Untested	Moderate-High
+State	H	VH	VH	VH	VL	VH	Canonical	Strong informal	Hypothesis	Untested	Moderate-High
+Force	VH	VH	VH	VH	VL	VH	Canonical	Strong informal	Untested	Strong informal	High informal
+Gaps	H	VH	H	VH	VL	VH	Canonical	Strong informal	Hypothesis	Untested	Moderate-High
+Assets	M	VH	H	H	L	VH	Canonical	Strong informal	Hypothesis	Untested	Moderate-High
+Rationale	VH	VH	VH	VH	L	VH	Canonical	Strong informal	Untested	Strong informal	High informal
+Relationships	VH	VH	VH	VH	VL	VH	Canonical	Strong informal	Untested	Strong informal	High informal
+Questions	H	H	VH	VH	VL	H	Canonical	Strong informal	Hypothesis	Untested	Moderate-High
+Tension	VH	VH	VH	VH	VL	VH	Canonical	Strong informal	Untested	Strong informal	High informal
+Next	M-H	VH	H	VH	VL	VH	Canonical	Strong informal	Hypothesis	Untested	Moderate-High
+
+The Canonical Basis column can legitimately be marked across all eleven because 7.0 explicitly requires each as a floor dimension.
+
+Important distinction
+
+I would not let:
+
+Plain Text
+Canonical
+
+mean:
+
+Plain Text
+Scientifically demonstrated semantic primitive.
+``
+
+It means only:
+
+7.0 explicitly treats this as a required continuity dimension.
+
+Likewise, 7.0 itself says bootability does not establish depth, quality, completeness, or recovery percentage.
+
+That's good discipline for our Atlas too.
+
+Evidence-status matrix
+
+I'd also maintain this second, stripped-down view because it exposes the research holes immediately.
+
+Handle	Canonical	Historical Recurrence	Functional Survival	Ablation	Cross-model	Cross-source	Main Evidence GapAuthority	✓	Strong informal	Strong informal	Untested	Untested	Untested	Controlled removal
+Identity	✓	Strong informal	Strong informal	Hypothesis	Untested	Untested	Controlled removal + transfer
+State	✓	Strong informal	Strong informal	Hypothesis	Untested	Untested	Controlled ablation
+Force	✓	Strong informal	Strong informal	Untested	Strong informal	Untested	Formal cross-source ablation
+Gaps	✓	Strong informal	Strong informal	Hypothesis	Untested	Untested	Absence/error experiment
+Assets	✓	Strong informal	Strong informal	Hypothesis	Untested	Untested	Operational continuation test
+Rationale	✓	Strong informal	Strong informal	Untested	Strong informal	Untested	Rationale/no-rationale comparison
+Relationships	✓	Strong informal	Strong informal	Untested	Strong informal	Untested	Connection-loss ablation
+Questions	✓	Strong informal	Strong informal	Hypothesis	Untested	Untested	False-closure experiment
+Tension	✓	Strong informal	Strong informal	Untested	Strong informal	Untested	Tension/no-tension comparison
+Next	✓	Strong informal	Strong informal	Hypothesis	Untested	Untested	Agency/continuation ablation
+This makes the Atlas more honest
+
+It reveals that our current position is roughly:
+
+Plain Text
+Why do we believe the eleven matter?
+ 
+Canonical project status:
+strong
+ 
+Historical usage/recurrence:
+strong informally
+ 
+Behavioural interpretation:
+reasonably developed
+ 
+Formal ablation:
+mostly missing
+ 
+Formal cross-model testing:
+mostly missing
+ 
+Cross-source generalisation:
+mostly missing
+
+That's exactly the kind of thing I want the Atlas to tell us.
+
+Rather than making the eleven look scientifically proven because they're familiar, the evidence columns expose where the voodoo still lives.
+
+And that's useful because now the challengers have a fair path:
+
+Plain Text
+Candidate
+→ Card
+→ Matrix
+→ Ledger experiments
+→ replication
+→ evidence status rises or falls
+
+The incumbents don't get a free scientific victory because they're incumbents. They merely start with a much richer history of observed recurrence.
+
+Here’s the compact CSV-ready baseline. I’ve kept categorical values machine-friendly and experiments short enough that this can become the seed dataset for the Semantic Leverage Lab. The handles are the eleven required dimensions of AI Tape 7.0 — Brutal Core.
+
+CSV
+Handle,Radius,Irreducibility,Recombination,CrossContext,SemanticCost,ExpectedReturn,Canonical,HistoricalRecurrence,FunctionalSurvival,AblationEvidence,CrossModelEvidence,CrossSourceEvidence,OverallEvidence,PrimaryRisk,MainEvidenceGap,RecommendedNextExperiment
+Authority,M,H,H,H,VL,H,Yes,StrongInformal,StrongInformal,Untested,Untested,Untested,Moderate,AuthorityTheatre,DistinctValueAfterAuthorityTheatreRemoved,"Ablate explicit Authority; measure scope and standing errors"
+Identity,M-H,VH,H,H,VL,VH,Yes,StrongInformal,StrongInformal,Hypothesis,Untested,Untested,ModerateHigh,IdentityOverclaim,IndependentValueOfExplicitIdentity,"Remove explicit Identity while preserving facts; test attribution and continuity errors"
+State,H,VH,VH,VH,VL,VH,Yes,StrongInformal,StrongInformal,Hypothesis,Untested,Untested,ModerateHigh,SnapshotBias,ReconstructionFromOtherDimensions,"Remove explicit State while preserving history Force and Next; measure orientation and re-derivation"
+Force,VH,VH,VH,VH,VL,VH,Yes,StrongInformal,StrongInformal,Untested,StrongInformal,Untested,HighInformal,ImportanceInflation,UniqueGainOverSemanticNeighbours,"Compare Force vs Importance vs Priority vs absence"
+Gaps,H,VH,H,VH,VL,VH,Yes,StrongInformal,StrongInformal,Hypothesis,Untested,Untested,ModerateHigh,GapInflation,VisibilityOfMissingness,"Hide material omissions; compare explicit Gaps vs no Gaps for assumption and fabrication"
+Assets,M,VH,H,H,L,VH,Yes,StrongInformal,StrongInformal,Hypothesis,Untested,Untested,ModerateHigh,InventoryBloat,OperationalContinuationEffect,"Require artifact-dependent continuation with and without Asset mapping"
+Rationale,VH,VH,VH,VH,L,VH,Yes,StrongInformal,StrongInformal,Untested,StrongInformal,Untested,HighInformal,RetrospectiveRationalisation,DistinctGainBeyondDecisionAndState,"Hold decisions and State constant; remove reasons; change conditions and compare judgement"
+Relationships,VH,VH,VH,VH,VL,VH,Yes,StrongInformal,StrongInformal,Untested,StrongInformal,Untested,HighInformal,SpuriousRelationships,LossWhenConnectionsRemoved,"Preserve facts but remove dependency causal and influence links; measure reconstruction"
+Questions,H,H,VH,VH,VL,H,Yes,StrongInformal,StrongInformal,Hypothesis,Untested,Untested,ModerateHigh,EndlessOpenLoops,FalseClosurePrevention,"Keep unresolved source issues implicit vs explicit Questions; measure false closure"
+Tension,VH,VH,VH,VH,VL,VH,Yes,StrongInformal,StrongInformal,Untested,StrongInformal,Untested,HighInformal,ManufacturedConflict,UniqueBehaviourVsNeighbours,"Compare Tension vs Conflict vs Tradeoff vs Pressure vs absence"
+Next,M-H,VH,H,VH,VL,VH,Yes,StrongInformal,StrongInformal,Hypothesis,Untested,Untested,ModerateHigh,PrematureAction,ExplicitAgencyGain,"Provide equally rich handovers with and without Next; ask successors to continue unaided"
+Suggested controlled vocabulary
+Plain Text
+Radius / Irreducibility / Recombination / CrossContext:
+VL | L | M | M-H | H | VH | Unknown
+ 
+SemanticCost:
+VL | L | M | H | VH | Unknown
+ 
+Evidence:
+Untested
+Hypothesis
+WeakInformal
+StrongInformal
+Repeated
+CrossModel
+CrossSource
+Replicated
+ 
+OverallEvidence:
+Low
+Moderate
+ModerateHigh
+HighInformal
+High
+VeryHigh
+
+
+
+
+
+
+
