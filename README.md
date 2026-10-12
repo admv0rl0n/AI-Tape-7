@@ -2,6 +2,15 @@
 
 This is a culmination of the previous variants and versions. 
 
+If you want to try - 
+7.0g is the latest 7.0 version - 
+And
+8.0rc4 is the latest test branch. 
+
+7 is aimed at a stable floor. 
+8 is aimed at more capable AI
+You can run 7 and then 8 for a deeper continuity, but not sure its actually better. 
+
 It clarifies a 'floor' that produces a stable continuity 'tape' from an AI. 
 That stability is drawn from primitives that reside in most higher tier AIs. (14b >>).
 
