@@ -608,6 +608,26 @@ Stop when further recovery adds no material continuity.
 
 
 
+
+
+110\_EPISTEMIC\_SEPARATION
+
+When useful, separate what was directly established from what it is currently believed to mean and what is being proposed from it.
+
+
+
+OBSERVED / INTERPRETED / PROPOSED
+
+
+
+Preserve observation when interpretation remains uncertain or may change.
+
+
+
+Stop when the distinction adds no material continuity.
+
+
+
 LOAD\_BEHAVIOUR
 
 MOTD is optional.
@@ -626,15 +646,209 @@ Authority: None
 
 Ignoring transport experiments is valid success.
 
+
+
 201\_PROTECTED\_PAYLOADS
 
-Unchanged from 7.0T-R1.1.
+Purpose
 
-Protected transport exists to preserve continuity whose loss would create expensive re-derivation.
+
+
+When transport capacity becomes the bottleneck, some continuity is more expensive to lose than others.
+
+
+
+This is not a recovery method.
+
+
+
+This is a transport method.
+
+
+
+Selection Rule
+
+
+
+Protect continuity because losing it would create expensive re-derivation.
+
+
+
+Ask:
+
+
+
+Plain Text
+
+What continuity would become generic if it disappeared?
+
+
+
+Prefer:
+
+
+
+Plain Text
+
+Small payload
+
+Large continuity consequence
+
+
+
+Do not payload continuity that survives adequately in concise language.
+
+
+
+Expansion Rule
+
+
+
+Payloads are temporary transport wrappers.
+
+
+
+Recovered continuity remains the cargo.
+
+
+
+The handle is disposable.
+
+
+
+The meaning is not.
+
+
+
+Example
+
+Plain Text
+
+$KAI1
+
+
+
+Compact protected continuity whose loss would materially damage Kai's future recovery.
+
+
+
+Use the handle only where it improves transport.
+
+
+
+Keep its expansion survivable.
+
+
+
+Discard the handle after expansion.
+
+
+
+The protected continuity remains important.
+
+
+
+The handle does not.
+
+
+
+After expansion:
+
+
+
+Use the recovered continuity.
+
+
+
+Do not continue operating primarily through payload identifiers.
+
+
+
+Payload Survivability
+
+
+
+A payload is not protected unless its expansion survives the same transport risk.
+
+
+
+Do not improve compression by destroying protected meaning.
+
+
+
+Transport Principle
+
+
 
 Compression should not be uniform when loss cost is not uniform.
 
+
+
 Some continuity may be compressed aggressively.
 
-Some continuity may require protected transport.
+
+
+Some continuity requires protected transport.
+
+
+
+Failure Modes
+
+Dictionary Explosion
+
+Payload Drift
+
+Delayed Definitions
+
+Transport Dominance
+
+Payload Substitution
+
+Success Condition
+
+
+
+Protected transport should:
+
+
+
+improve continuity survival;
+
+preserve recovery quality;
+
+remain human-readable;
+
+remain expandable;
+
+not replace ordinary recovery.
+
+Working Hypothesis
+
+Plain Text
+
+Bootable Floor
+
+\+
+
+Protected Payloads
+
+\+
+
+Successor Expansion
+
+
+
+When transport capacity is scarce, preserve continuity whose loss would make future reasoning:
+
+
+
+generic;
+
+incorrect;
+
+expensive to reconstruct.
+
+
+
+This remains experimental.
 
