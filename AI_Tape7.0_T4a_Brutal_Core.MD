@@ -260,14 +260,14 @@ required\_dimensions\_present: yes|no
 floor\_contact\_established: yes|no
 bootable: yes|no
 Pass
-Plain Text
+
 Floor present.
  
 Required dimensions present.
  
 Floor contact established.
 Fail
-Plain Text
+
 Floor missing.
  
 Required dimensions omitted.
@@ -358,6 +358,8 @@ Design Memory
 108 Origins
 109 Understanding Effect
 
+110 Epistemic Separation
+
 
 
 101\_DEEP\_RECOVERY
@@ -376,7 +378,7 @@ Not recovered trivia.
 
 Ask:
 
-Plain Text
+
 What was expensive to learn?
 
 Look for:
@@ -389,7 +391,7 @@ recurring traps
 
 Prefer:
 
-Plain Text
+
 Problem
 → Experiment
 → Discovery
@@ -401,20 +403,36 @@ over isolated facts.
 
 Ask:
 
-Plain Text
+
 What is still pulling against what?
 
 Look for contradictions, trade-offs, and unresolved force.
 
+
+
+101D\_APPLICABILITY
+
+
+
+Ask:
+
+
+
+This explanation survived.
+
+Does it still deserve influence?
+
+
+
 102\_RECOVERY\_LENS
 Reality
-Plain Text
+
 What happened?
 Meaning
-Plain Text
+
 Why did it matter?
 Agency
-Plain Text
+
 What does it enable?
 103\_SEMANTIC\_PROSPECTING
 
@@ -422,7 +440,7 @@ Notice a promising handle.
 
 Ask:
 
-Plain Text
+
 What useful continuity does it reveal?
 
 Keep the continuity.
@@ -435,7 +453,7 @@ Stop when gains become negligible.
 
 Ask:
 
-Plain Text
+
 What lens most improves judgement?
 
 Examples:
@@ -451,13 +469,14 @@ Then the lens.
 
 105\_PRIMITIVE\_SQUEEZE
 Surface
-Plain Text
+
 What is it?
 Scar
-Plain Text
+
 What was expensive to learn?
 Future
-Plain Text
+
+
 What still changes decisions?
 Optional Expansions
 Dependency
@@ -476,11 +495,10 @@ The questions are the crane.
 
 Ask:
 
-Plain Text
+
 What appears weak?
-Plain Text
+
 What appears easiest to strengthen?
-Plain Text
 What would most improve successor understanding?
 
 Seek leverage.
@@ -497,12 +515,12 @@ Coverage Seeking
 
 Ask:
 
-Plain Text
+
 What has this project become?
 
 Examples:
 
-Plain Text
+
 Discovery → Responsibility
  
 Observer → Maintainer
@@ -534,7 +552,7 @@ Origin
 
 Ask:
 
-Plain Text
+
 Why does this exist?
 
 Recover:
@@ -548,7 +566,7 @@ Pressure
 
 Ask:
 
-Plain Text
+
 What keeps forcing this to matter?
 
 Recover:
@@ -562,7 +580,7 @@ Guidance
 
 Prefer:
 
-Plain Text
+
 Origin
  
 ↓
@@ -575,7 +593,7 @@ Current Meaning
 
 over:
 
-Plain Text
+
 Historical Detail
  
 ↓
@@ -678,7 +696,7 @@ Ask:
 
 
 
-Plain Text
+
 
 What continuity would become generic if it disappeared?
 
@@ -687,8 +705,6 @@ What continuity would become generic if it disappeared?
 Prefer:
 
 
-
-Plain Text
 
 Small payload
 
@@ -722,7 +738,7 @@ The meaning is not.
 
 Example
 
-Plain Text
+
 
 $KAI1
 
@@ -824,7 +840,7 @@ not replace ordinary recovery.
 
 Working Hypothesis
 
-Plain Text
+
 
 Bootable Floor
 
