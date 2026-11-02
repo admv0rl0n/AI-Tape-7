@@ -2,28 +2,59 @@
 
 This is a culmination of the previous variants and versions. 
 
-If you want to try - 
-7.0g is the latest 7.0 version - 
-And
-8.0rc4 is the latest test branch. 
+(Latest stuff..)
+AI CONTINUITY TOOLKIT
+PRINCIPLES
 
-7 is aimed at a stable floor. 
-8 is aimed at more capable AI
-You can run 7 and then 8 for a deeper continuity, but not sure its actually better. 
+High-capability AI can use these as guidance to decide
+what continuity matters and create an appropriate continuity artifact.
 
-It clarifies a 'floor' that produces a stable continuity 'tape' from an AI. 
-That stability is drawn from primitives that reside in most higher tier AIs. (14b >>).
+Highest AI
+Use Continuity Principles - This is a high end equivelent to the T4A-Full package - slimmed and built for hi intellect AI.
+0.3 has no additonal Continuity Lenses -
+0.4 has a set of 4 usable lens that the AI can choose
 
-This is able to recover core project ethos to abpout 80-85% from/to an AI. 
+Next -
+Use the Unified Continuity Guide 0.1
+└─ Unified Continuity Guide
+Smaller, freer guidance that trusts the receiving AI
+to choose an appropriate continuity shape.
+This is thinned and should be usable by hi IQ AI, similar to T4A
 
-The workshop area allows the end user, or AI to dig a bit deeper to pull some more - 
-The workshop is an area a user or AI can explore, make, build, test, trial, examine - and more. This allows a 
-hunt for the last 15-20%. 
-The last % are hard and we won't go into detail as to why. Each AI and project will have limitations and 
-challenges in terms of that last 20%. 
+Continuity Guide
+│ Richer judgement-led guidance for preserving meaning,
+│ rationale, scars, uncertainty and successor freedom.
+Continuity_Guide_for_AI_V4d.md
 
-The current 7.0 file caters for floor, tape protocol and workshop. Its likely the tightest/best
-combination we have found against the size and token/context window challenge. 
+POINT-IN-TIME CROSSINGS
+AI can use these to create bootable continuity artifacts
+for transferring work from one context or intelligence to another.
+├─ T4A
+│ The normal crossing instrument.
+│ Recovers enough project reality for a successor to land
+│ and continue useful work.
+│
+└─ T4A_FULL
+The higher-assurance crossing instrument.
+Uses three independent passes to recover, understand
+and prepare the work for a capable successor.
+
+INCREMENTAL PROJECT CONTINUITY
+Used for an existing, longer-lived project that continues. Use to pass project state back/forth/incremental updates between AIs.
+while different intelligences work on it over time.
+└─ Wayfarer
+Wayfarer Guide - Pass both to AI for better understanding.
+
+A bootable project continuity platform.
+Maintains current orientation, navigable depth and project
+history while participants rotate.
+
+Each participant inherits the existing landscape, works,
+and checkpoints what materially changed during their watch.
+
+Wayfarer can stand alone as a continuity artifact, while
+supporting repeated AI-to-AI interchange without requiring
+the whole project to be reconstructed at every crossing. 
 
 Usage. 
 You hand the MD file to your AI. Or paste it if its standalone and has no file access/drop. 
@@ -36,8 +67,6 @@ It will either give you a file, or it will spew text that you then put in a file
 This is a .md file. 
 You give this to the next AI It should be able to acknoledge the tape, acknowledge your project 
 and have a level of understanding far from 0%. 
-
-
 
 # AI Tape 7.0 White Paper
 
