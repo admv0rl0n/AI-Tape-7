@@ -16,25 +16,25 @@ Use Continuity Principles - This is a high end equivelent to the T4A-Full packag
 
 Next -
 Use the Unified Continuity Guide 0.1
-└─ Unified Continuity Guide
+Unified Continuity Guide
 Smaller, freer guidance that trusts the receiving AI
 to choose an appropriate continuity shape.
 This is thinned and should be usable by hi IQ AI, similar to T4A
 
-Continuity Guide
-│ Richer judgement-led guidance for preserving meaning,
-│ rationale, scars, uncertainty and successor freedom.
+Continuity Guide - Continuity_Guide_for_AI_V4d.md
+Richer judgement-led guidance for preserving meaning,
+rationale, scars, uncertainty and successor freedom.
 Continuity_Guide_for_AI_V4d.md
 
 POINT-IN-TIME CROSSINGS
 AI can use these to create bootable continuity artifacts
 for transferring work from one context or intelligence to another.
-├─ T4A
-│ The normal crossing instrument.
-│ Recovers enough project reality for a successor to land
-│ and continue useful work.
-│
-└─ T4A_FULL
+T4A
+The normal crossing instrument.
+Recovers enough project reality for a successor to land
+and continue useful work.
+
+T4A_FULL
 The higher-assurance crossing instrument.
 Uses three independent passes to recover, understand
 and prepare the work for a capable successor.
@@ -42,7 +42,7 @@ and prepare the work for a capable successor.
 INCREMENTAL PROJECT CONTINUITY
 Used for an existing, longer-lived project that continues. Use to pass project state back/forth/incremental updates between AIs.
 while different intelligences work on it over time.
-└─ Wayfarer
+Wayfarer
 Wayfarer Guide - Pass both to AI for better understanding.
 
 A bootable project continuity platform.
